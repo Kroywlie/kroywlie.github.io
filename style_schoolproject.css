@@ -15,11 +15,9 @@ body {
   height: 100vh;
 }
 
-
-
 header {
   position: fixed;
-  
+
   top: 0;
   left: 0;
   right: 0;
@@ -161,21 +159,21 @@ a.underline:after {
   color: whitesmoke;
 }
 
-.ramka{
+.ramka {
   width: auto;
-  border: 2px solid ;
-  border-color: #363636 ;
+  border: 2px solid;
+  border-color: #363636;
   padding: 3vh;
   padding-bottom: 3vh;
   border-radius: 10px;
-  background-color: #1d1d1d;  
+  background-color: #1d1d1d;
 }
 
-.ramka3{
+.ramka3 {
   width: 35vw;
-  background-color: #363636 ;
-  border: 5px solid ;
-  border-color: #313130 ;
+  background-color: #363636;
+  border: 5px solid;
+  border-color: #313130;
 }
 
 .blocksphoto p {
@@ -189,7 +187,7 @@ a.underline:after {
   float: left;
 }
 
-.blocksphoto h1{
+.blocksphoto h1 {
   font-size: 2vw;
 }
 
@@ -199,7 +197,7 @@ a.underline:after {
   vertical-align: middle;
   margin-right: 3vw;
   margin-left: 3vw;
-  max-height: 100%;
+  height: 20vw;
   width: 30vw;
   text-align: left;
   margin-top: 5%;
@@ -220,7 +218,7 @@ a.underline:after {
   text-align: right;
   margin-left: 5vw;
 }
-#Showroums{
+#Showroums {
   width: 100%;
   padding-top: 15vh;
   margin-top: -15vh;
@@ -247,22 +245,21 @@ footer img {
   vertical-align: middle;
 }
 
-@media screen and (max-width: 1280px ){
-  .Header_inner a{
-      font-size: 19px;
+@media screen and (max-width: 1280px) {
+  .Header_inner a {
+    font-size: 19px;
   }
-  .Header_inner p{
-      font-size: 50px;
-      margin-left: 5vw;
+  .Header_inner p {
+    font-size: 50px;
+    margin-left: 5vw;
   }
-  .karta{
-    margin-left:19%;
+  .karta {
+    margin-left: 19%;
   }
-  .pictures{
+  .pictures {
     margin-top: 8vw;
   }
   .blocksphoto {
     height: 35vw;
   }
-  
 }
