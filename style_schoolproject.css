@@ -152,7 +152,7 @@ a.underline:after {
   margin-top: 5vh;
   margin-left: 3vw;
   margin-right: 3vw;
-  height: 30vw;
+  height: 35vw ;
   letter-spacing: 5px;
   font-weight: 100;
   font-family: HELVETICA, serif;
@@ -208,6 +208,7 @@ a.underline:after {
 }
 .pod {
   float: left;
+  margin-left: 3vh;
 }
 
 .ot {
@@ -264,4 +265,23 @@ footer img {
   }
 }
 @media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 850px ){
+  .Header_inner a{
+    font-size: 12px;
+  }
+  .predstavlenie h1{
+    font-size: 20px;
+  }
+  .predstavlenie p{
+    font-size: 13px;
+  }
+  .blocksphoto p{
+    font-size: 10px;
+    width: 35vw;
+    margin-bottom: 5vh;
+  }
+  .blocksphoto {
+    height: 60vw;
+  }
 }
