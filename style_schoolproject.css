@@ -220,14 +220,8 @@ a.underline:after {
   margin-left: 5vw !important;
   
 }
-#Showroums {
-  width: 100%;
-  padding-top: 15vh;
-  margin-top: -15vh;
-}
-.karta {
-  position: relative;
-  margin-left: 29vw;
+
+.karta{
   margin-top: 5vh;
 }
 
@@ -254,9 +248,6 @@ footer img {
   .Header_inner p {
     font-size: 50px;
     margin-left: 5vw;
-  }
-  .karta {
-    margin-left: 19%;
   }
   .pictures {
     margin-top: 8vw;
